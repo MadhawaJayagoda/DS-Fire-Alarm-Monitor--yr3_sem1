@@ -1,0 +1,20 @@
+.sensorDetails.card{
+    width: 50rem;
+}
+
+.displayCard{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.card-body.sensorDetails{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.card-body.contactDetails{
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,15 @@
+
+.list-group-item.list-group-item-action.card-body.card-title{
+    color: floralwhite;
+    cursor: pointer;
+}
+
+.list-group-item.list-group-item-action.card-body.card-title:hover{
+    color: darkgray;
+    background-color: dimgray;
+}
+
+.list-group-item.list-group-item-action.card-body.card-title:active:focus{
+    outline: grey;
+    color: darkgrey;
+}

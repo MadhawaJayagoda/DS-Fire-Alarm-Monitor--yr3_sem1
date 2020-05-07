@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.contentBody{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+
+}
+
+.sideNav {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: darkgray;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
